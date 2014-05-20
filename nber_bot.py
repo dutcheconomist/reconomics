@@ -74,7 +74,7 @@ while True:
         textbody = curr_post['summary'] + '\n\n\n' + curr_post['link']
         title = "NBER:" + curr_post['title']
 
-        r.submit('reddit_api_test', title, text=textbody)
+        r.submit('economics', title, text=textbody)
         
     except:
         print "No New Posts!"
